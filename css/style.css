@@ -196,7 +196,7 @@ footer {
 
 .btn-5 {
   font-family: "Athiti", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15rem;
@@ -429,6 +429,196 @@ footer {
 .slide-port-4 {
   background-image: url(/img/harbor/harbor4.jpg);
 }
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+@media only screen and (max-width: 56.25em) {
+  .u-margin-bottom-big {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+@media only screen and (max-width: 56.25em) {
+  .u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+  }
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.heading-1 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+  text-align: center;
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-1 {
+    letter-spacing: 1rem;
+    font-size: 5rem;
+  }
+}
+
+.heading-2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 5rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .heading-2 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-2 {
+    font-size: 2.5rem;
+  }
+}
+
+.heading-3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+}
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.sub-1,
+.sub-1:link,
+.sub-1:visited {
+  font-family: "Athiti", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  font-weight: 500;
+  padding: 1rem;
+  padding-left: calc(5rem + 1rem);
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
+  transition: all 0.4s;
+  border: solid 1px #000;
+}
+
+.sub-1__ico {
+  font-size: calc(1.5rem * 1.5);
+  position: absolute;
+  left: calc(5rem / 2 - 1.5rem * 0.75);
+  z-index: 1;
+  color: #fff;
+}
+
+.sub-1__ico--wait {
+  -webkit-animation: 2s rotate linear infinite;
+  animation: 2s rotate linear infinite;
+}
+
+.sub-1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5rem;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.4s;
+}
+
+.sub-1--orange {
+  color: #3e4444;
+  background-color: #fff;
+}
+
+.sub-1--orange:hover {
+  background: #e4b668;
+}
+
+.sub-1--orange:active {
+  transform: translateY(3px);
+}
+
+.sub-1--orange:hover:before {
+  background-color: #b87a07;
+}
+
+.sub-1--orange:before {
+  background-color: #e4b668;
+}
+
+.form-2 {
+  width: 50%;
+  padding: 6rem;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #111;
+}
+@media only screen and (max-width: 75em) {
+  .form-2 {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .form-2 {
+    width: 100%;
+    padding: 0rem;
+  }
+}
+.form-2__group:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.form-2__input,
+.form-2__textarea {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: inherit;
+  padding: 1rem 1rem;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 1px;
+  display: block;
+  width: 100%;
+}
+.form-2__input:focus,
+.form-2__textarea:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(17, 17, 17, 0.1);
+}
+.form-2__input::-webkit-input-placeholder,
+.form-2__textarea::-webkit-input-placeholder {
+  color: #777;
+}
+.form-2__textarea {
+  height: 250px;
+}
+.form-2__label {
+  margin-top: 0.7rem;
+  display: block;
+}
 @media screen and (max-width: 1500px) {
   nav ul {
     font-size: 1.8rem;
@@ -445,7 +635,6 @@ footer {
     font-size: 1.2rem;
   }
   .btn-5 {
-    font-size: 1.2rem;
     padding-left: 5rem;
   }
   .btn-5__ico {
@@ -587,6 +776,11 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+  .form-2__input,
+  .form-2__textarea {
+    font-size: 1rem;
+    padding: 0.75rem 0.75rem;
+  }
   .gallery-title h2 {
     font-size: 1.8rem;
     padding: 20px 0px;

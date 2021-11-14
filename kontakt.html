@@ -76,6 +76,43 @@
             ><i class="btn-5__ico fas fa-map-marked-alt"></i>Zobacz dojazd !</a
           >
           </section>
+          <section class="text">
+            <form action="#" class="form-2" enctype="multipart/form-data">
+              <div class="u-margin-bottom-medium">
+                <h1>Napisz do Nas</h1>
+              </div>
+              <div class="form-2__group">
+                <label for="name" class="form-2__label">Imię</label>
+                <input
+                  type="text"
+                  class="form-2__input"
+                  placeholder="Podaj Imię"
+                  id="name"
+                  required
+                />
+              </div>
+              <div class="form-2__group">
+                <label for="email" class="form-2__label">Adres Email</label>
+                <input
+                  type="email"
+                  class="form-2__input"
+                  placeholder="Podaj Email"
+                  id="email"
+                  required
+                />
+              </div>
+              <div class="form-2__group">
+                <label for="message" class="form-2__label">Wiadomość</label>
+                <textarea class="form-2__textarea" id="message" placeholder="Wpisz wiadomość..." required></textarea>
+              </div>
+              <div class="form-2__group">
+                <button class="sub-1 sub-1--orange sub-1-sep">
+                  <i class="sub-1__ico fas fa-paper-plane"></i
+                  ><span class="sub-1__text">Wyślij</span>
+                </button>
+              </div>
+            </form>
+          </section>
         </main>
         <footer>
           <nav class="footer-nav">
@@ -96,5 +133,7 @@
     <script src="js/res-menu.js"></script>
     <script src="js/load-img.js"></script>
     <script src="js/observer.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/axios.js"></script>
   </body>
 </html>
