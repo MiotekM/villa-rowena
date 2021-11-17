@@ -200,6 +200,7 @@ footer {
   padding-right: 20px;
   box-sizing: border-box;
   border-right: 4px black solid;
+  line-height: 1;
 }
 .panel-btn-2 {
   float: left;
@@ -207,6 +208,7 @@ footer {
   text-align: left;
   padding-left: 20px;
   box-sizing: border-box;
+  line-height: 1;
 }
 .btn-5 {
   font-family: "Athiti", sans-serif;
