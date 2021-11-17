@@ -749,6 +749,7 @@ footer {
     font-size: 3rem;
     padding: 20px 0px;
   }
+  .panel-btn,
   .panel-btn-1,
   .panel-btn-2 {
     font-size: 2rem;
@@ -811,6 +812,7 @@ footer {
     font-size: 1.6rem;
     padding: 20px 0px;
   }
+  .panel-btn,
   .panel-btn-1,
   .panel-btn-2 {
     font-size: 1.6rem;
