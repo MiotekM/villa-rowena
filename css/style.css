@@ -291,7 +291,7 @@ footer {
 
 .sub-gallery {
   margin: 0px auto;
-  width: 75%;
+  max-width: 1400px;
   display: none;
 }
 .show {

@@ -3,7 +3,7 @@ if (window.screen.width > 740) {
     cols: 2,
     style: {
       border: "10px solid #fff",
-      width: "45%",
+      width: "49%",
       height: "400px",
       boxShadow: "0 2px 10px -5px #000",
     },
