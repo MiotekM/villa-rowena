@@ -6,7 +6,7 @@ const sub_1__text = document.querySelector(".sub-1__text");
 // type is either 'password' or 'data'
 const updateSettings = async (data) => {
   try {
-    const url = "http://mail-sender.server672908.nazwa.pl/send";
+    const url = "https://applications.com.pl/send";
     sub_1__ico.classList.remove("fa-paper-plane");
     sub_1__ico.classList.add("sub-1__ico--wait");
     sub_1__ico.classList.add("fa-redo");
