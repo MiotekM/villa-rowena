@@ -10,7 +10,7 @@ const updateSettings = async (data) => {
     sub_1__ico.classList.remove("fa-paper-plane");
     sub_1__ico.classList.add("sub-1__ico--wait");
     sub_1__ico.classList.add("fa-redo");
-    sub_1__text.innerHTML = "submit-2";
+    sub_1__text.innerHTML = "Wysyłam";
     const res = await axios({
       method: "POST",
       url,
