@@ -6,7 +6,7 @@ const sub_1__text = document.querySelector(".sub-1__text");
 // type is either 'password' or 'data'
 const updateSettings = async (data) => {
   try {
-    const url = "https://applications.com.pl/mail-sender";
+    const url = "https://applications.com.pl/v1/universal/mail-sender";
     sub_1__ico.classList.remove("fa-paper-plane");
     sub_1__ico.classList.add("sub-1__ico--wait");
     sub_1__ico.classList.add("fa-redo");
@@ -43,6 +43,6 @@ if (dataForm)
     form.append("message", document.getElementById("message").value);
     form.append("from", "villarowena");
     form.append("subject", "Villa Rowena - wiadomość z formularza");
-    form.append("receiver", "villa.rowena@onet.pl");
+    form.append("receiver", "andrzej.jan.jaworski@gmail.com");
     updateSettings(form);
   });
