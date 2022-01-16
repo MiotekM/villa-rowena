@@ -840,7 +840,16 @@ footer {
     font-size: 1.6rem;
   }
   .weekend-text {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+  }
+  .weekend1 {
+    color: #0b43e0;
+  }
+  .weekend2 {
+    color: #f8e900;
+  }
+  .weekend3 {
+    color: #7c00bb;
   }
   .icons {
     display: none;
