@@ -125,6 +125,16 @@ footer {
   text-align: justify;
   animation: showText 1s ease-out;
 }
+.weekend-text {
+  text-align: center;
+  font-size: 2rem;
+  animation: pulseText 4s infinite;
+}
+@keyframes pulseText {
+  50% {
+    transform: scale(1.1);
+  }
+}
 @keyframes showText {
   0% {
     opacity: 0;
