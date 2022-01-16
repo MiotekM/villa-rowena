@@ -132,7 +132,7 @@ footer {
 }
 @keyframes pulseText {
   50% {
-    transform: scale(1.1);
+    transform: scale(1.07);
   }
 }
 @keyframes showText {
