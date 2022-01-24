@@ -353,6 +353,7 @@ footer {
   display: none;
 }
 .swiper-container {
+  overflow-x: hidden;
   width: 100%;
   height: 100%;
 }
