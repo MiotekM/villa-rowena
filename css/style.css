@@ -388,7 +388,19 @@ footer {
   background-image: url(/img/villa/out/out1.JPG);
 }
 .slide-villa-2 {
+  background-image: url(/img/villa/hall/out2.jpg);
+}
+.slide-villa-3 {
   background-image: url(/img/villa/hall/hall1.JPG);
+}
+.slide-villa-4 {
+  background-image: url(/img/villa/hall/hall2.jpg);
+}
+.slide-villa-5 {
+  background-image: url(/img/villa/hall/hall3.jpg);
+}
+.slide-villa-6 {
+  background-image: url(/img/villa/hall/hall4.jpg);
 }
 .slide-okolica-1 {
   background-image: url(/img/rowy/lot_ptaka1.jpg);
