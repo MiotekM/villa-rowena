@@ -391,15 +391,21 @@ footer {
   background-image: url(/img/villa/out/out2.jpg);
 }
 .slide-villa-3 {
-  background-image: url(/img/villa/hall/hall1.JPG);
+  background-image: url(/img/villa/out/out3.jpg);
 }
 .slide-villa-4 {
-  background-image: url(/img/villa/hall/hall2.jpg);
+  background-image: url(/img/villa/out/out4.jpg);
 }
 .slide-villa-5 {
-  background-image: url(/img/villa/hall/hall3.jpg);
+  background-image: url(/img/villa/hall/hall1.jpg);
 }
 .slide-villa-6 {
+  background-image: url(/img/villa/hall/hall2.jpg);
+}
+.slide-villa-7 {
+  background-image: url(/img/villa/hall/hall3.jpg);
+}
+.slide-villa-8 {
   background-image: url(/img/villa/hall/hall4.jpg);
 }
 .slide-okolica-1 {
