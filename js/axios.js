@@ -41,7 +41,7 @@ if (dataForm)
     form.append("name", document.getElementById("name").value);
     form.append("sender", document.getElementById("email").value);
     form.append("message", document.getElementById("message").value);
-    form.append("from", "villarowena");
+    form.append("from", "Villa Rowena");
     form.append("subject", "Villa Rowena - wiadomość z formularza");
     // form.append("receiver", "villa.rowena@onet.pl");
     form.append("receiver", "andrzej.jan.jaworski@gmail.com");
